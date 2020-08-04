@@ -62,6 +62,10 @@ document.addEventListener('DOMContentLoaded',() =>{
        let current = theTretominos[random][0]
 
        //draw the  tetromino
+       function noScroll() {
+        window.scrollTo(0, 0);
+      }
+      
       
        function draw(){
            current.forEach(index=>{
@@ -92,6 +96,7 @@ document.addEventListener('DOMContentLoaded',() =>{
            moveLeft()
        }else if (e.keyCode === 38){
         //rotate
+        window.addEventListener('scroll', noScroll);
         rotate()
        }else if (e.keyCode === 39){
         //moveRight
