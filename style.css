@@ -1,5 +1,44 @@
+
+
+body{
+  background-color: #118ab2;
+  font-family: 'Press Start 2P', cursive;
+  margin: 0;
+}
+
+header{
+  background-color: #ffd166;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.25);
+}
+h1{
+  margin-top: 0;
+}
+
+h3{
+  color: aliceblue;
+}
+
+button{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 10px;
+  border-radius: 15px;
+  background-color: #ef476f;
+  color: white;
+  height: 26px
+}
+
+.contenedor{
+  margin-left: 500px;
+  margin-top: 40px;
+}
+
 .container {
     display: flex;
+    margin-top: 25px;
   }
   
 .grid {
@@ -7,17 +46,24 @@ width: 200px;
 height: 400px;
 display: flex;
 flex-wrap: wrap;
-background-color: yellow;
+background-color: #06d6a0;
+border-radius: 8px;
+border: 3px solid #073b4c;
 }
+
+
 
 .grid div{
     height: 20px;
     width: 20px;
     
+    
 }
 
 .tetromino{
     background-color: blue;
+    border-radius: 4px;
+    
 }
 
 .mini-grid {
@@ -26,7 +72,9 @@ background-color: yellow;
     height: 80px;
     display: flex;
     flex-wrap: wrap;
-    background-color: yellow;
+    background-color: #ffd166;
+    border-radius: 8px;
+border: 3px solid #073b4c;
   }
   
   .mini-grid div {
